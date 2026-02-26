@@ -23,7 +23,7 @@ const Navbar = () => {
             alignItems: 'center'
         }}>
             <div>
-                <Link to="/" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>StockDashboard</Link>
+                <Link to="/" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>StockDashboard 💖</Link>
             </div>
 
             <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>

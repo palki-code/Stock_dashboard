@@ -1,19 +1,27 @@
 :root {
-  --bg-color: #f4f4f9;
-  --text-color: #333;
-  --nav-bg: #2c3e50;
-  --nav-text: #ecf0f1;
-  --card-bg: #fff;
-  --border-color: #ddd;
+  --bg-color: #fff0f5;
+  /* LavenderBlush */
+  --text-color: #4a154b;
+  /* Deep plum/pink */
+  --nav-bg: #e91e63;
+  /* Pink */
+  --nav-text: #ffffff;
+  --card-bg: #ffffff;
+  --border-color: #fce4ec;
+  /* Light pink border */
 }
 
 body.dark-mode {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
-  --nav-bg: #1f1f1f;
-  --nav-text: #e0e0e0;
-  --card-bg: #1e1e1e;
-  --border-color: #333;
+  --bg-color: #2c0b1e;
+  /* Dark plum */
+  --text-color: #fce4ec;
+  /* Light pink */
+  --nav-bg: #880e4f;
+  /* Dark pink */
+  --nav-text: #ffffff;
+  --card-bg: #4a154b;
+  /* Deep plum card */
+  --border-color: #701041;
 }
 
 body {
@@ -39,7 +47,7 @@ a {
   background-color: var(--card-bg);
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   border: 1px solid var(--border-color);
 }
@@ -49,13 +57,15 @@ a {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #3498db;
+  background-color: #ec407a;
+  /* Lighter pink for buttons */
   color: white;
   font-weight: bold;
 }
 
 .btn:hover {
-  background-color: #2980b9;
+  background-color: #d81b60;
+  /* Darker pink on hover */
 }
 
 .btn-danger {
@@ -82,7 +92,8 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   padding: 12px;
   text-align: left;
   border-bottom: 1px solid var(--border-color);
